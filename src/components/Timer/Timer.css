@@ -1,0 +1,20 @@
+.timer-container {
+    background-color: var(--timer-background-color);
+    border: var(--timer-border);
+    height: var(--timer-height);
+    width: var(--timer-width);
+  }
+  
+  .timer-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  
+  .timer-button-container {
+    display: flex;
+  }
+  
+  .time-display {
+    font-size: 100px;
+  }
